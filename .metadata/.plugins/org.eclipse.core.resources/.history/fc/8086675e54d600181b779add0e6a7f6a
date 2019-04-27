@@ -1,0 +1,12 @@
+#set spring boot application active profile.
+spring.profiles.active=[stage, dev, qa]
+
+#Local  Server Config
+server.port=8085
+
+#Local MongoDB config
+spring.data.mongodb.database=angulardb
+spring.data.mongodb.port=27017
+spring.data.mongodb.host=localhost
+
+

@@ -1,0 +1,35 @@
+/**
+ * 
+ */
+package com.example.demo.practice;
+
+/**
+ * @author kyakambr
+ *
+ */
+public class RecursiveLinearSearch {
+
+	static int arr[]= {20,17,3,89,34};
+	
+	public static void main(String[] args) {
+		
+		int x=3;
+		
+		int index= recursiveLinearSearch(arr, 0, arr.length-1, x);
+		if(index!=-1) {
+			System.out.println("element found at"+index+" index");
+		}else {
+			System.out.println("not found.");
+		}
+	     
+		
+	}
+
+	
+	private static int recursiveLinearSearch(int[] arr2, int x, int i, int x2) {
+		
+		
+		return 0;
+	}
+
+}

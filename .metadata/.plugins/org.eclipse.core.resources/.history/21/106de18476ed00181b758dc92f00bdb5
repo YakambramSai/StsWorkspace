@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package com.example.demo.practice.exceptions;
+
+/**
+ * @author kyakambr
+ *
+ */
+public class ReturnValueFromTryCatchFinally {
+	
+	
+	
+	public static void main(String[] args) {
+		int i= returnValueMethod();
+		
+	}
+
+	/**
+	 * @return
+	 */
+	private static int returnValueMethod() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.online.classes;
+
+public class RunnableDemo implements Runnable{
+
+}

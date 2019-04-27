@@ -1,0 +1,11 @@
+package com.online.classes;
+
+public class FinalClassDemo {
+	
+	private final int id;
+	
+	public FinalClassDemo(int id) {
+		this.id=id;
+	}
+
+}

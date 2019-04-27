@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+package com.example.demo.practice;
+
+public class InStack {
+	private int[] stack;
+	private int top;
+	private int size;
+	
+	
+	
+	
+
+}

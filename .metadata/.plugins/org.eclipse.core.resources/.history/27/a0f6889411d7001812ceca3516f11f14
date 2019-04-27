@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package com.example.demo.practice;
+
+/**
+ * @author kyakambr
+ *
+ */
+public class RecursiveLinearSearch {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+	}
+
+}

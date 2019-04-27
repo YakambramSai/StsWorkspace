@@ -1,0 +1,40 @@
+package com.example.demo;
+
+import static org.junit.Assert.assertEquals;
+import static org.mockito.Mockito.when;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.test.context.junit4.SpringRunner;
+
+import com.example.demo.controller.TicketController;
+import com.example.demo.entities.Ticket;
+import com.example.demo.service.TicketService;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class TicketManagementApplicationTests {
+
+	@MockBean
+	TicketService ticketSetrvice;
+	
+	@Autowired
+	TicketController ticketController;
+	
+	@Mock
+	Ticket ticket;
+	
+		
+	@Test
+	public void bookTicket() {
+		ticket.setTicketId(3);
+		int result=ticketController.bookTicket(ticket);
+		assertEquals(3, result);
+	}
+
+}

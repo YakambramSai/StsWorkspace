@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package com.example.demo.practice;
+
+public class HashCodeTest {
+
+	public static void main(String[] args) {
+	
+		
+
+	}
+
+}
+
+public class Employee {
+	int id;
+	public Employee(int id) {
+		this.id=id;
+	}
+}

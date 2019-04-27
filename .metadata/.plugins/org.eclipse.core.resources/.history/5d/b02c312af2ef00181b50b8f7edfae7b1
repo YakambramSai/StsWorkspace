@@ -1,0 +1,55 @@
+/**
+ * 
+ */
+package com.example.demo.practice;
+
+public class InStack {
+	private int[] stack;
+	private int top;
+	private int size;
+	
+	
+	 public InStack() {
+		this.top=-1;
+		this.size=50;
+		this.stack=new int[size];
+	 }
+	
+	 public InStack(int size) {
+		 this.top=-1;
+		 this.size=size;
+		 this.stack=new int[size];
+	 }
+	 
+	 
+	 public boolean push(int item) {
+		if(!isFull()) {
+		 top++;
+		 stack[top]=item;
+		 return true;
+		}else {
+			return false;
+		}
+		 
+	 }
+	 
+	 
+	 public boolean pop() {
+		 if(!isEmpty()) {
+			 return stack[top--];
+		 }
+		 else {
+			 return false;
+		 }
+	 }
+	 
+	 
+	 public boolean isFull() {
+		 return top==size;
+	 }
+	 
+	 public boolean isEmpty() {
+		 return top==-1;
+	 }
+
+}

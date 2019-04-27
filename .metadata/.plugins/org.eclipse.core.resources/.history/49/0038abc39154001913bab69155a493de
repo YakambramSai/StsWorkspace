@@ -1,0 +1,19 @@
+package com.online.classes;
+
+public class FinalClassDemo {
+	
+	private final int id;
+	
+	public FinalClassDemo(int id) {
+		this.id=id;
+	}
+
+	public int getId(){
+		return id;
+	}
+	
+	public static void main(String[] args) {
+		FinalClassDemo fc=new FinalClassDemo(30);
+		fc.id=80;
+	}
+}

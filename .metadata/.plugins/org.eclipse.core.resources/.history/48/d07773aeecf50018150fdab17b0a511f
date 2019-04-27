@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package com.example.demo.practice;
+
+/**
+ * @author kyakambr
+ *
+ */
+public class Test01 {
+
+	
+	public static void main(String[] args) {
+	
+		// this is my first comment.
+		
+		// \u000d System.out.println("Hello Test001");
+
+	}
+
+}

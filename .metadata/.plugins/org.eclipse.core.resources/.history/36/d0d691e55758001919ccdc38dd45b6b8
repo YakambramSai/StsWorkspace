@@ -1,0 +1,16 @@
+package com.online.classes;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class ExecuratorServiceDemo {
+
+	public static void main(String[] args) {
+		
+		int count=Runtime.getRuntime().availableProcessors();
+		ExecutorService ex=Executors.newFixedThreadPool(nThreads);
+		
+
+	}
+
+}

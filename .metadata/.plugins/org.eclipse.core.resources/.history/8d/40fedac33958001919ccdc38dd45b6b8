@@ -1,0 +1,16 @@
+package com.online.classes;
+
+public class RunnableDemo implements Runnable {
+
+	@Override
+	public void run() {
+
+		System.out.println("Current running Thread:" + Thread.currentThread().getId());
+
+	}
+    
+	public static void main(String[] args) {
+		Thread t= new Thread(new RunnableDemo());
+		
+	}
+}

@@ -1,0 +1,43 @@
+/**
+ * 
+ */
+package com.example.demo.practice;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayListDemo {
+	
+	public static void main(String[] args) {
+		List<Parent> list=new ArrayList<Parent>();
+	}
+
+}
+
+interface Parent {
+	public void display(); 
+}
+
+
+class Child1 implements Parent {
+
+	
+	@Override
+	public void display() {
+		System.out.println("Hello");
+		
+	}
+	
+}
+
+
+class Child2 implements Parent {
+
+	
+	@Override
+	public void display() {
+		System.out.println("Hello");
+		
+	}
+	
+}

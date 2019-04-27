@@ -1,0 +1,24 @@
+/**
+ * 
+ */
+package com.example.demo.practice;
+
+public class InStack {
+	private int[] stack;
+	private int top;
+	private int size;
+	
+	
+	 public InStack() {
+		this.top=-1;
+		this.size=50;
+		this.stack=new int[size];
+	 }
+	
+	 public InStack(int size) {
+		 this.top=-1;
+		 this.size=size;
+		 this.stack=new int[size];
+	 }
+
+}
