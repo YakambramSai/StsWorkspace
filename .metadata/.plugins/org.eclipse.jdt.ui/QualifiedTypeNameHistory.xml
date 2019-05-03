@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.Override"/>
-<fullyQualifiedTypeName name="com.example.demo.controller.WelcomeResource"/>
-<fullyQualifiedTypeName name="com.example.demo.controller.StudentController"/>
 <fullyQualifiedTypeName name="com.example.demo.service.StudentService"/>
 <fullyQualifiedTypeName name="org.springframework.boot.test.mock.mockito.MockBean"/>
 <fullyQualifiedTypeName name="com.example.demo.modal.Course"/>
@@ -60,4 +57,7 @@
 <fullyQualifiedTypeName name="com.online.classes.ThreadDemo"/>
 <fullyQualifiedTypeName name="org.mockito.Mock"/>
 <fullyQualifiedTypeName name="org.mockito.InjectMocks"/>
+<fullyQualifiedTypeName name="com.example.demo.practice.FindAddNumberOfOccuranciesArrayDemo"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Map.Entry"/>
 </qualifiedTypeNameHistroy>
