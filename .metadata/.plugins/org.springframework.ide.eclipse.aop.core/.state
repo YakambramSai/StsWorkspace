@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
-<aop-project name="TicketManagementSystem"/>
-<aop-project name="SpringBoot01"/>
+<aop-project name="user-portal"/>
 <aop-project name="HelloSpringBootApplication"/>
 </aop-reference-model>
