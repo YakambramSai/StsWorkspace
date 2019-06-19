@@ -1,0 +1,11 @@
+server:
+  context-path: /weblogic-demo
+
+spring:
+  datasource:
+    url: jdbc:derby://localhost:1527/myDB
+    driver-class-name: org.apache.derby.jdbc.ClientDriver
+#    jndi-name: jdbc/derbyxa
+
+debug: true
+
