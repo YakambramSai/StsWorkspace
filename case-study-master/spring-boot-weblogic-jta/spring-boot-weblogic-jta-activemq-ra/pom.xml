@@ -20,7 +20,7 @@
     </description>
 
     <properties>
-        <active-mq-version>5.15.2</active-mq-version>
+        <active-mq-version>5.15.10</active-mq-version>
     </properties>
 
     <dependencies>
