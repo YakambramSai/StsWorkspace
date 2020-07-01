@@ -20,7 +20,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
 
-        <versionQuartz>2.2.3</versionQuartz>
+        <versionQuartz>2.3.2</versionQuartz>
     </properties>
 
     <dependencies>
