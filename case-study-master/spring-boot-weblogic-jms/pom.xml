@@ -17,7 +17,7 @@
         <version.maven.ear>2.10.1</version.maven.ear>
         <version.maven.war>2.6</version.maven.war>
         <version.spring.boot>1.4.0.RELEASE</version.spring.boot>
-        <versionActiveMq>5.14.0</versionActiveMq>
+        <versionActiveMq>5.15.9</versionActiveMq>
     </properties>
 
     <modules>
